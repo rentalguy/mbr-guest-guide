@@ -1,0 +1,30 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ADD8E6"/> <!-- Light Blue -->
+      <stop offset="100%" style="stop-color:#87CEFA"/> <!-- Light Sky Blue -->
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#gradient)"/>
+
+  <!-- Minimalist House Outline -->
+  <path d="M 100 50 L 50 100 L 50 150 L 150 150 L 150 100 Z M 100 50 L 150 100 M 75 150 L 75 120 L 125 120 L 125 150 Z"
+        fill="none" stroke="#4682B4" stroke-width="5"/> <!-- Steel Blue -->
+
+  <!-- Minimalist Crab Overlay -->
+  <path d="M 100 100 C 80 80 70 110 80 120 C 90 130 110 130 120 120 C 130 110 120 80 100 100 Z"
+        fill="#FF7F50"/> <!-- Coral -->
+
+  <!-- Crab Claws -->
+  <path d="M 80 120 C 70 130 60 120 60 110 L 70 100 Z" fill="#FF7F50"/> <!-- Coral -->
+  <path d="M 120 120 C 130 130 140 120 140 110 L 130 100 Z" fill="#FF7F50"/> <!-- Coral -->
+
+  <!-- Crab Legs (simplified) -->
+  <circle cx="90" cy="130" r="3" fill="#FF7F50"/> <!-- Coral -->
+  <circle cx="110" cy="130" r="3" fill="#FF7F50"/> <!-- Coral -->
+  <circle cx="85" cy="140" r="3" fill="#FF7F50"/> <!-- Coral -->
+  <circle cx="115" cy="140" r="3" fill="#FF7F50"/> <!-- Coral -->
+
+  <!-- Text "OC RENTAL PRO" -->
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="16" fill="#00008B" text-anchor="middle">OC RENTAL PRO</text> <!-- Dark Blue -->
+</svg>
